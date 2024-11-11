@@ -2,4 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+    .nav_link {
+        @apply relative text-base font-medium w-fit block text-white;
 
+        &::after {
+            content: "";
+            @apply absolute left-0 bottom-0 h-[3px] bg-[#8A2BE2] w-full scale-x-0 transition-transform duration-300 origin-right;
+        }
+        &:hover {
+            @apply text-[#8A2BE2];
+        }
+        &:hover::after {
+            @apply scale-x-100;
+        }
+    }
+}
