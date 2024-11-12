@@ -30,13 +30,14 @@ const Navbar = ({ openNav }: Props) => {
     <div className={`fixed ${navBg ? "bg-[#240b39]" : ""} h-[9vh] z-[10] w-full transition-all duration-300`}>
       <div className="flex items-center h-full justify-between w-[90%] sm:w-[90%] xl:w-[80%] mx-auto">
         {/* Logo */}
-        <Image
-          src="/images/logoop.webp"
-          alt="Logo"
-          width={45}
-          height={20}
-          className="ml-[-0.8rem] sm:ml-2 rounded-3xl"
-        />
+        <div className="bg-[#170129] px-2 py-1 rounded-md inline-flex items-center">
+          <h3 className='text-bg text-[1.2rem] md:text-xl lg:text-xl text-gray-300 font-semibold cursor-pointer'>
+            {"<PS/>"}
+          </h3>
+        </div>
+
+
+
 
         {/* Navigation Links */}
         <div className="flex items-center space-x-10">

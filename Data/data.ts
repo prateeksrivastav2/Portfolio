@@ -2,8 +2,7 @@ export const BaseInfo = {
     name: "Prateek Srivastava",
     position: "Full Stack Web Developer",
     description:
-      "Final-year Computer Science student at Jaypee Institute of Information Technology with hands-on experience in MERN stack development and a passion for solving data structures and algorithms (DSA) problems. I have built various projects, including ShopEase, an e-commerce platform tailored for small businesses in the Indian market, Quizzy, a real-time quiz app with ChatGPT-powered grading, and LeetCode Visualizer for comparing coding performance. A state-level cricket player turned coder, I mentor juniors in DSA through the Rapid Programming Hub (RPH) and have achieved a top-5% global ranking on LeetCode and a 4-star rating on CodeChef. I'm a proactive learner eager to explore new technologies and strengthen my technical expertise.",
-    profilePic: "/images/hero.png",
+      "Final-year Computer Science student at Jaypee Institute of Information Technology with hands-on experience in MERN stack development and a passion for solving data structures and algorithms (DSA) problems.",
   };
   
   export const aboutInfo = {

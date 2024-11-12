@@ -2,6 +2,11 @@ export const navlinks=[
     {
         id:1,
         url:"#",
+        Lable:"Home"
+    },
+    {
+        id:5,
+        url:"#",
         Lable:"About"
     },
     {
@@ -17,6 +22,6 @@ export const navlinks=[
     {
         id:4,
         url:"#",
-        Lable:"Contacts"
+        Lable:"Contact Me"
     }
 ];
